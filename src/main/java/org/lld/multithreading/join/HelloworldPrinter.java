@@ -1,4 +1,4 @@
-package org.lld.multithreading;
+package org.lld.multithreading.join;
 
 public class HelloworldPrinter implements Runnable{
     @Override

@@ -1,2 +1,4 @@
-package org.lld.interfacenabstract;public class Penguin {
+package org.lld.interfacenabstract;
+
+public class Penguin extends Bird{
 }

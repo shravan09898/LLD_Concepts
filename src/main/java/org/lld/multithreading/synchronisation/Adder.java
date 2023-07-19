@@ -1,4 +1,6 @@
-package org.lld.multithreading.AdderSubtractor;
+package org.lld.multithreading.synchronisation;
+
+import org.lld.multithreading.AdderSubtractor.Count;
 
 public class Adder implements Runnable {
     private Count count;

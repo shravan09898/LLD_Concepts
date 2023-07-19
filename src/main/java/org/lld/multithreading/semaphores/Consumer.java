@@ -1,4 +1,4 @@
-package org.lld.semaphores;
+package org.lld.multithreading.semaphores;
 
 import java.util.Queue;
 import java.util.concurrent.Semaphore;

@@ -1,4 +1,4 @@
-package org.lld.inheritence;
+package org.lld.inheritenceAndPolymorphism;
 
 public class User {
     int id;
@@ -15,5 +15,9 @@ public class User {
         System.out.println("Address : "+address);
         System.out.println("Email ID : "+email);
         System.out.println("Password : "+password);
+    }
+
+    public void attendLecture(){
+        System.out.println("User is attending lecture");
     }
 }

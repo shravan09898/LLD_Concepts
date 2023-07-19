@@ -1,4 +1,4 @@
-package org.lld.semaphores;
+package org.lld.multithreading.semaphores;
 
 public class Shirt {
 
