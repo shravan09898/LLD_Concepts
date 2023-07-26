@@ -5,75 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831200ff-38e8-4544-a065-3d26845109d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/exceptions/InvalidGradyearException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/exceptions/InvalidNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/exceptions/InvalidYOEException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/AndroidUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/IosUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/SupportedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/UIFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/button/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/button/IosButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/dropdown/AndroidDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/dropdown/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/dropdown/IosDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/menu/AndriodMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/menu/IosMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/components/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/prototypeRegistry/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/prototypeRegistry/IntelligentStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/prototypeRegistry/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/prototypeRegistry/StudentRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/Demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/Demo/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/constructor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/constructor/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/constructor/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/constructor/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/constructor/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/constructor/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/singleton/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/singleton/SingletonMultithreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/singleton/SingletonMultithreaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/encapsulation/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/encapsulation/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/encapsulation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/encapsulation/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Mentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/TA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/TA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/inheritenceAndPolymorphism/ValidationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/designpatterns/builder/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Crow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Crow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/IFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/IFlyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Penguin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Sparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/interfacenabstract/Sparrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/AdderSubtractor/Subtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/ClientJoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/ClientJoinDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/HelloworldPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/HelloworldPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/SquarePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/SquarePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/AtomicCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/AtomicCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/Incrementer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/atomicdatatype/Incrementer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/callable/ArrayAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/callable/ArrayAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/callable/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/callable/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/callable/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/callable/MergeSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/executors/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/executors/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/executors/CubePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/executors/CubePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/executors/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/executors/MergeSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/join/ClientJoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/join/ClientJoinDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/join/HelloworldPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/join/HelloworldPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/join/HelloworldPrinterWithWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/join/HelloworldPrinterWithWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/semaphores/Shirt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/multithreading/synchronisation/IncrementCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/staticnfinal/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/staticnfinal/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/staticnfinal/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/staticnfinal/IntelligentStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lld/staticnfinal/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lld/staticnfinal/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -119,6 +75,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.lld.designpatterns.factorycomponents" />
       <recent name="org.lld.designpatterns.builder" />
       <recent name="org.lld.designpatterns.builder.exceptions" />
       <recent name="org.lld.multithreading.AdderSubtractor" />
@@ -128,13 +85,39 @@
       <recent name="org.lld.multithreading.join" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.lld.designpatterns.builder.Client">
+  <component name="RunManager" selected="Application.org.lld.designpatterns.factory.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lld.designpatterns.builder.Client" />
+      <option name="MAIN_CLASS_NAME" value="org.lld.interfacenabstract.Client" />
       <module name="Low_Level_Design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lld.designpatterns.builder.exceptions.*" />
+          <option name="PATTERN" value="org.lld.interfacenabstract.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.lld.designpatterns.factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lld.designpatterns.factory.Client" />
+      <module name="Low_Level_Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lld.designpatterns.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.lld.designpatterns.prototypeRegistry.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lld.designpatterns.prototypeRegistry.Client" />
+      <module name="Low_Level_Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lld.designpatterns.prototypeRegistry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,39 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.lld.multithreading.synchronisation.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lld.multithreading.synchronisation.Client" />
-      <module name="Low_Level_Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lld.multithreading.synchronisation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.lld.semaphores.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lld.semaphores.Client" />
-      <module name="Low_Level_Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lld.semaphores.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.lld.designpatterns.builder.Client" />
+        <item itemvalue="Application.org.lld.designpatterns.factory.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.org.lld.designpatterns.prototypeRegistry.Client" />
         <item itemvalue="Application.org.lld.designpatterns.singleton.Client" />
         <item itemvalue="Application.org.lld.multithreading.atomicdatatype.Client" />
-        <item itemvalue="Application.org.lld.semaphores.Client" />
-        <item itemvalue="Application.org.lld.multithreading.synchronisation.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +200,25 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/lld/multithreading/executors/MergeSorter.java</url>
           <line>40</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lld/designpatterns/prototypeRegistry/Client.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lld/designpatterns/factory/Client.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lld/designpatterns/prototypeRegistry/IntelligentStudent.java</url>
+          <line>19</line>
+          <properties class="org.lld.designpatterns.prototypeRegistry.IntelligentStudent" method="copy">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
